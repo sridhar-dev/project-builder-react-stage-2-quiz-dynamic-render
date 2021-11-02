@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #40407a;
+  color: aliceblue;
+  font-family: 'Exo 2', sans-serif;
+}
+.Container1{
+  text-align: center;
+  line-height: 10vh;
+}
+
+button.home{
+  height: 7vh;
+  width: 20vw;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(64, 195, 54);
+  color: white;
+}
+
+
+
+.Quiz{
+  background-color: white;
+  width: 75vw;
+  height: 60vh;
+  margin: -80px 0 0 0;
+  padding: 30px;
+  box-shadow: 0 0 8px 5px #00ace6;
+  
+}
+
+.head > h1{
+  padding: 15px;
+  font-size: xxx-large;
+  font-weight: lighter;
+}
+
+.head > span{
+  float: left;
+  font-size: small;
+}
+
+.head{
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  margin: 0 10px 10px 0;
+}
+
+
+
+.middle > button{
+    background-color: #00ace6;
+    color: white;
+    height: 7.5vh;
+    width: 33vw;
+    border-radius: 30px;
+    border: none;
+    margin: 18px;
+}
+
+.middle{
+  text-align: center;
+}
+
+.bottom > button{
+  color: white;
+  border: none;
+  padding: 7px;
+  width: auto;
+  margin-right: 40px;
+  box-shadow: 1px 1px 5px 1px  black;
+}
+
+.bottom > .left{
+    background-color: #0088cc;
+}
+
+.bottom > .center{
+  background-color: #00b300
+}
+
+.bottom > .right{
+  background-color: #ff4d4d;
+}
+
+.bottom{
+  text-align: center;
+  margin: 25px;
+}
+
+.Result > h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #00b300;
+  margin-bottom: 20px;
+
+}
+
+.score{
+  background-color: white;
+  width: 45vw;
+  height: 35vh;
+  margin: 0px 0 0 0;
+  padding: 30px;
+  box-shadow: 0 0 8px 5px #00b300;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.score > h1,h2{
+  text-align: center;
+}
+
+.score > h1{
+  margin: 25px 0 20px 0;
+  color: #00aaff;
+  font-size: 40px;
+}
+.score > ul{
+  font-size: 12px;
+}
+
+ul:nth-child(even){
+  margin-top: -10px;
+  text-align: right;
+}
+
+.last{
+  text-align: center;
+}
+
+.last > button{
+  background-color: inherit;
+  color: white;
+  padding: 3px;
+  margin: 20px 0 0 30px ;
+}
+
+.last > .side1{
+  color: #00aaff;
+  border-color: #00aaff;
+}
+
+.last > .side2{
+  color: #00b300;
+  border-color: #00b300;
+}
+
+.logo {
+  height: 100px;
+  border: 10px solid #57b846;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 240px;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  height: 50px;
+  width: 25px;
+  border: 12px solid #57b846;
+  transform: rotate(45deg) translate(89%, -22%);
+  border-left: none;
+  border-top: none;
+}
